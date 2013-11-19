@@ -1,0 +1,41 @@
+body {
+  background-color:#ccc;
+  padding:50px;
+}
+
+pre {
+  background-color:white;
+  padding:0 1em;
+  white-space:pre;
+  word-wrap:normal;
+  overflow:auto;
+}
+
+pre code,
+pre .line-number {
+  display:block;
+  font:normal normal 13px/24px "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace !important;
+  color:#006699;
+}
+
+pre .line-number {
+  float:left;
+  margin:0 1em 0 -1em;
+  color:#aaa;
+  background-color:#f5f5f5;
+  border-right:3px solid #6CE26C;
+  text-align:right;
+  min-width:2.5em;
+}
+
+pre .line-number span {
+  display:block;
+  padding:0 .5em 0 1em;
+}
+
+pre .line-number span:nth-child(even) {background-color:#eee}
+
+pre .cl {
+  display:block;
+  clear:both;
+}
