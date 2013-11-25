@@ -42,11 +42,12 @@
           to { background-color: #fc9200; -webkit-box-shadow: 0 0 9px #333; }
         }
 
-/*        a.button {
+  
+a.button {
                 -webkit-animation-duration: 2s;
                 -webkit-animation-iteration-count: infinite; 
         }
-*/
+
 .menumetro {
   background-color:#777777;
   color: #fff;
@@ -58,6 +59,7 @@
 
   }
 .menumetro a {
+  display: block;
   color: #fff;
   text-decoration: none;
   width: 100px;
@@ -69,6 +71,13 @@
   padding:3px;
   
 }
+
+.menumetro a:hover {
+  color: #000;
+  opacity: 0.3;
+
+  
+}
 /* 
 .yellow { background: #fdd22a; }
 .blue { background: #009fe3; }
@@ -77,10 +86,10 @@
 .pink { background: #e61c67; }
 .green { background: #96c11f; }*/
 
-.green { -webkit-animation-name: greenPulse; -webkit-animation-duration: 3s; }
-.blue { -webkit-animation-name: bluePulse; -webkit-animation-duration: 4s; }
-.pink { -webkit-animation-name: redPulse; -webkit-animation-duration: 1s; }
-.purple { -webkit-animation-name: magentaPulse; -webkit-animation-duration: 2s; }
-.orange { -webkit-animation-name: orangePulse; -webkit-animation-duration: 3s; }
-.yellow { -webkit-animation-name: orangellowPulse; -webkit-animation-duration: 5s; }
+.green.button { -webkit-animation-name: greenPulse; -webkit-animation-duration: 3s; }
+.blue.button { -webkit-animation-name: bluePulse; -webkit-animation-duration: 4s; }
+.pink.button { -webkit-animation-name: redPulse; -webkit-animation-duration: 1s; }
+.purple.button { -webkit-animation-name: magentaPulse; -webkit-animation-duration: 2s; }
+.orange.button { -webkit-animation-name: orangePulse; -webkit-animation-duration: 3s; }
+.yellow.button { -webkit-animation-name: orangellowPulse; -webkit-animation-duration: 5s; }
 
