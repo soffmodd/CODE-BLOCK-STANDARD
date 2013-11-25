@@ -59,7 +59,6 @@ a.button {
 
   }
 .menumetro a {
-  display: block;
   color: #fff;
   text-decoration: none;
   width: 100px;
@@ -75,7 +74,6 @@ a.button {
 .menumetro a:hover {
   color: #000;
   opacity: 0.3;
-
   
 }
 /* 
@@ -92,4 +90,3 @@ a.button {
 .purple.button { -webkit-animation-name: magentaPulse; -webkit-animation-duration: 2s; }
 .orange.button { -webkit-animation-name: orangePulse; -webkit-animation-duration: 3s; }
 .yellow.button { -webkit-animation-name: orangellowPulse; -webkit-animation-duration: 5s; }
-
