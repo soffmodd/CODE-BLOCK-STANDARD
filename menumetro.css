@@ -44,7 +44,7 @@
 
   
 a.button {
-                -webkit-animation-duration: 2s;
+/*                -webkit-animation-duration: 2s;   */
                 -webkit-animation-iteration-count: infinite; 
         }
 
