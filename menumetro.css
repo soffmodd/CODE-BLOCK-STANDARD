@@ -43,11 +43,11 @@
         }
 
   
-a.button {
+/*a.button {
                 -webkit-animation-duration: 2s;   
                 -webkit-animation-iteration-count: infinite; 
         }
-
+*/
 .menumetro {
   background-color:#777777;
   color: #fff;
@@ -84,9 +84,9 @@ a.button {
 .pink { background: #e61c67; }
 .green { background: #96c11f; }*/
 
-.green.button { -webkit-animation-name: greenPulse; -webkit-animation-duration: 3s; }
-.blue.button { -webkit-animation-name: bluePulse; -webkit-animation-duration: 4s; }
-.pink.button { -webkit-animation-name: redPulse; -webkit-animation-duration: 1s; }
-.purple.button { -webkit-animation-name: magentaPulse; -webkit-animation-duration: 2s; }
-.orange.button { -webkit-animation-name: orangePulse; -webkit-animation-duration: 3s; }
-.yellow.button { -webkit-animation-name: orangellowPulse; -webkit-animation-duration: 5s; }
+.green { -webkit-animation-name: greenPulse; -webkit-animation-duration: 3s; -webkit-animation-iteration-count: infinite; }
+.blue { -webkit-animation-name: bluePulse; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: infinite; }
+.pink { -webkit-animation-name: redPulse; -webkit-animation-duration: 1s; -webkit-animation-iteration-count: infinite; }
+.purple { -webkit-animation-name: magentaPulse; -webkit-animation-duration: 2s; -webkit-animation-iteration-count: infinite; }
+.orange { -webkit-animation-name: orangePulse; -webkit-animation-duration: 3s; -webkit-animation-iteration-count: infinite; }
+.yellow { -webkit-animation-name: orangellowPulse; -webkit-animation-duration: 5s; -webkit-animation-iteration-count: infinite; }
